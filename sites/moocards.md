@@ -9,51 +9,13 @@
 </head>
 
 <body class="stackedit">
-  <div class="stackedit__html"><h1 id="moohub">MooHub</h1>
-<p>The ultimate site for anonymous people!</p>
+  <div class="stackedit__html"><h1 id="moocards">MooCards</h1>
 <blockquote>
-<p>Use VPN for safety<br>
-People can find your IP when you use this website!</p>
+<p>If you love MooCards, we would love for you to use <a href="home">MooHub</a></p>
 </blockquote>
-<h2 id="recommended-vpn-softwares">Recommended VPN Softwares</h2>
-<p><strong>Best softwares for VPN</strong></p>
-<ul>
-<li>X-VPN</li>
-<li>Hotspot Shield</li>
-</ul>
-<blockquote>
-<p>More coming soon!</p>
-</blockquote>
-
-<table>
-<thead>
-<tr>
-<th>All MooSites</th>
-<th>MooSite Subjects</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>MooCards</td>
-<td>Coming Soon</td>
-</tr>
-<tr>
-<td>MooHacks</td>
-<td>Coming Soon</td>
-</tr>
-<tr>
-<td>MooJailbreak</td>
-<td>Coming Soon</td>
-</tr>
-<tr>
-<td>MooRoot</td>
-<td>Coming Soon</td>
-</tr>
-</tbody>
-</table><h3 id="github">Github</h3>
-<p>You can view the Github respiratory <a href="https://github.com/ElectroCrysZtaL/Moohub">here</a></p>
-<p>Want to contribute? Email me: <a href="mailto:electrocrystal183@gmail.com">electrocrystal183@gmail.com</a></p>
 <hr>
+<p>This site allows you to have free credit cards!</p>
+<h3 id="coming-soon">Coming Soon</h3>
 </div>
 </body>
 
