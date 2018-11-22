@@ -16,10 +16,27 @@
 People can find your IP when you use this website!</p>
 </blockquote>
 <h2 id="recommended-vpn-softwares">Recommended VPN Softwares</h2>
+<p><strong>Best softwares for VPN</strong></p>
 <ul>
-<li></li>
+<li>X-VPN</li>
+<li>Hotspot Shield</li>
 </ul>
-</div>
+<blockquote>
+<p>More coming soon!</p>
+</blockquote>
+
+<table>
+<thead>
+<tr>
+<th>All MooSi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table></div>
 </body>
 
 </html>
