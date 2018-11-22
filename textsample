@@ -1,0 +1,126 @@
+<html lang="en"><head>
+   <title>CC GENERATOR</title>
+   <meta charset="UTF-8">
+   <meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport">
+   <meta name="description" content="Credit Card Generator">
+   <meta name="keywords" content="ccgen, credit card generator, generator, cc, bin, credit, mastercard, visa, amex, discover">
+   <meta name="author" content="">
+   <meta name="google" content="notranslate">
+   <meta name="og:description" content="Credit Card Generator">
+   <meta name="og:url" content="/">
+   <meta name="og:title" content="CCGen.org">
+   <meta name="og:image" content="/ccgen_files/img/favicon.png">
+   <meta name="theme-color" content="#1a1a1a">
+   <meta name="msapplication-navbutton-color" content="#1a1a1a">
+   <meta name="apple-mobile-web-app-capable" content="yes">
+   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+   
+   <link rel="shortcut icon" href="/ccgen_files/img/favicon.png">
+   <link rel="stylesheet" type="text/css" href="./ccgen_files/css/ccgen_style.css">
+   <link href="./ccgen_files/css/geosans.css" rel="stylesheet" type="text/css">
+   <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script async="" type="text/javascript" src="http://de.tynt.com/deb/v2?id=w!mbha2neveif4&amp;dn=TC&amp;cc=1&amp;r="></script><script async="" type="text/javascript" src="http://cdn.tynt.com/tc.js"></script><script src="//t.dtscout.com/i/?l=http%3A%2F%2Fakatsuki-id.top%2Fcard%2Fccg%2F&amp;j=" async="" type="text/javascript"></script><script async="" type="text/javascript" src="//whos.amung.us/pingjs/?k=mbha2neveif4&amp;t=CC%20GENERATOR&amp;c=s&amp;y=&amp;a=0&amp;d=0.37&amp;v=22&amp;r=1773"></script><script async="" src="./ccgen_files/js/small.js"></script></head>
+
+<body onload="ccgen();">
+  <header>
+     
+     <section class="title"><img src="./ccgen_files/img/favicon.png" alt="NamsoCCGen">CC GENERATOR</section>
+   </header>
+    
+   <div align="center">
+	     <div class="principal"><br>
+	     <form name="console" id="console" class="form-horizontal" role="form" method="POST">
+	        <div class="p"><div class="Ilabel"><i class="fa fa-gg"></i> Insert your BIN</div><input type="text" class="input_text" id="ccpN" name="ccp" value="" style="width: 175px" placeholder="xxxx xxxx xxxx xxxx" maxlength="19"></div>
+	        <br>
+	           <select name="ccnsp" class="input_text" style="display:none;"><option selected="selected">None</option></select>
+	           <div class="p"><div class="Ilabel"><i class="fa fa-plus-square"></i> Include</div>
+	           <div class="input_text s"><label>Date<input type="checkbox" id="ccexpdat" name="ccexpdat" checked=""></label><label>CCV2<input type="checkbox" id="ccvi" name="ccvi" checked=""></label><label>Bank Info<input type="checkbox" id="ccbank" name="ccbank"></label></div>
+	           </div>
+	           <br>
+	              <div class="p"><div class="Ilabel"><i class="fa fa-shopping-bag" aria-hidden="true"></i> Amount</div><input class="input_text" type="text" name="ccghm" style="width: 40px" maxlength="4" value="10"></div>
+	              <div class="p"><div class="Ilabel"><i class="fa fa-cogs" aria-hidden="true"></i> Format</div>
+	                 <select name="ccoudatfmt" class="input_text">
+	                    <option value="CHECKER" selected="selected">CHK
+	                    </option><option value="CSV">CSV
+	                    </option><option value="XML">XML
+	                    </option><option value="JSON">JSON
+	                 </option></select>
+	                 </div><br>
+	                    <div class="p"><div class="Ilabel"><i class="fa fa-connectdevelop"></i> CCV2</div><input type="text" id="eccv" maxlength="4" style="width: 40px" value="rnd" class="input_text" name="eccv"></div>
+	                    <div class="p"><div class="Ilabel"><i class="fa fa-calendar" aria-hidden="true"></i> Month</div>
+	                    <select name="emeses" class="input_text">
+	                       <option value="rnd">Rnd
+	                       </option><option value="01">01
+	                       </option><option value="02">02
+	                       </option><option value="03">03
+	                       </option><option value="04">04
+	                       </option><option value="05">05
+	                       </option><option value="06">06
+	                       </option><option value="07">07
+	                       </option><option value="08">08
+	                       </option><option value="09">09
+	                       </option><option value="10">10
+	                       </option><option value="11">11
+	                       </option><option value="12">12
+	                    </option></select>
+	                    </div>
+	                    	<div class="p"><div class="Ilabel"><i class="fa fa-calendar" aria-hidden="true"></i> Year</div>
+	                    	<select name="eyear" class="input_text">
+	                    	   <option value="rnd">Rnd
+	                    	   </option><option value="2019">2019
+	                    	   </option><option value="2020">2020
+	                    	   </option><option value="2021">2021
+	                    	   </option><option value="2022">2022
+	                    	   </option><option value="2023">2023
+	                    	   </option><option value="2024">2024
+	                    	   </option><option value="2025">2025
+	                    	   </option><option value="2026">2026
+	                    	   </option><option value="2027">2027
+	                    	   </option><option value="2028">2028
+	                    	</option></select>
+	                    	</div>
+	                  <input type="hidden" name="tr" value="1000">
+	                 <input type="hidden" name="L" style="width: 20px" value="1L">
+	                 <br>
+	               <br>
+	              <a class="Lbutton" name="gerar" id="gerar"><i class="fa fa-cog fa-spin"></i> Generate Cards</a>
+	              <br>
+	             <br>
+	            <div align="center">
+	             <div class="eighty">
+	              <div>
+	               <div class="clean" id="cleanText"></div>
+	              </div>
+	               <textarea class="textarea" name="output2" id="output2" rows="15" readonly=""></textarea>
+	             </div>
+	           </div>
+	         </form>
+	       </div>
+	     </div>
+	     <br>
+<footer>
+   <span><i class="fa fa-credit-card-alt" aria-hidden="true"></i>&nbsp;ELDERS-C0DE&nbsp;<i class="fa fa-credit-card-alt" aria-hidden="true"></i>
+ 
+   <br>
+  <script id="_waueb8">
+    var _wau = _wau || [];
+    _wau.push(["small", "mbha2neveif4", "eb8"]);
+    (function() {
+        var s = document.createElement("script");
+        s.async = true;
+        s.src = "./ccgen_files/js/small.js";
+        document.getElementsByTagName("head")[0].appendChild(s);
+    })();
+  </script><div title="Click to see what's popular on this site!" style="position: relative; display: inline-block; background-image: url(&quot;data:image/gif;base64,R0lGODlhUAAXAMQAAM1iTdBuWMQ4MsdHOt+ch/js5+/Qw+vCs/Pe1dR6Y+OolNuQespVQ9eFbsAnLX9/fzAwL////zU1NQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAABQABcAAAX/ICSOZGmeaKqu7Bi9L3IcBWzfeK7vfI+LMAPAQXQEEBGJcslsOp/QqFQaAUYMAiIjMnAIDMmpeEweVyGRQtcxIByy7Fd5Ti+fIwTiABYoKsJ1gYJMd30OeIhDRoCDjXR3igAEEQAChgCMjppihUULL3CLm6OcQHlEEQ0JEX6ZpK9Ld2qofZRxrrCvd1dZrA4AlWC5w7FWEQgJRQ4JSMTOuzAFMzU+1dbX1i3a29zdJhIwSkk24OGAOOU56eJyYw8S73ax7bGE54y45fP1YvFzYXIy4btH6Mm4feKYPIi3kCE8eAuXRHRy8OA6duzQkUuYMSMghyAfhnzYpF1FKPjsNPEDyI8jyXchYSqB2ZBiPYs2W+rjyNIlOIkzX4oU6s9gwB4lN4ZzaW5pmIkxhUIs6uzRsBAAOw==&quot;); width: 80px; height: 15px; padding: 0px; margin: 0px; overflow: hidden; cursor: pointer; direction: ltr;"><div style="background-image: url(&quot;data:image/gif;base64,R0lGODlhUAAXAMQAAM1iTdBuWMQ4MsdHOt+ch/js5+/Qw+vCs/Pe1dR6Y+OolNuQespVQ9eFbsAnLX9/fzAwL////zU1NQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAABQABcAAAX/ICSOZGmeaKqu7Bi9L3IcBWzfeK7vfI+LMAPAQXQEEBGJcslsOp/QqFQaAUYMAiIjMnAIDMmpeEweVyGRQtcxIByy7Fd5Ti+fIwTiABYoKsJ1gYJMd30OeIhDRoCDjXR3igAEEQAChgCMjppihUULL3CLm6OcQHlEEQ0JEX6ZpK9Ld2qofZRxrrCvd1dZrA4AlWC5w7FWEQgJRQ4JSMTOuzAFMzU+1dbX1i3a29zdJhIwSkk24OGAOOU56eJyYw8S73ax7bGE54y45fP1YvFzYXIy4btH6Mm4feKYPIi3kCE8eAuXRHRy8OA6duzQkUuYMSMghyAfhnzYpF1FKPjsNPEDyI8jyXchYSqB2ZBiPYs2W+rjyNIlOIkzX4oU6s9gwB4lN4ZzaW5pmIkxhUIs6uzRsBAAOw==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-position: -8px -15px; position: absolute; width: 5px; height: 8px; top: 4px; left: 20px; line-height: 8px; overflow: hidden; padding: 0px; margin: 0px;"></div><div style="background-image: url(&quot;data:image/gif;base64,R0lGODlhUAAXAMQAAM1iTdBuWMQ4MsdHOt+ch/js5+/Qw+vCs/Pe1dR6Y+OolNuQespVQ9eFbsAnLX9/fzAwL////zU1NQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAABQABcAAAX/ICSOZGmeaKqu7Bi9L3IcBWzfeK7vfI+LMAPAQXQEEBGJcslsOp/QqFQaAUYMAiIjMnAIDMmpeEweVyGRQtcxIByy7Fd5Ti+fIwTiABYoKsJ1gYJMd30OeIhDRoCDjXR3igAEEQAChgCMjppihUULL3CLm6OcQHlEEQ0JEX6ZpK9Ld2qofZRxrrCvd1dZrA4AlWC5w7FWEQgJRQ4JSMTOuzAFMzU+1dbX1i3a29zdJhIwSkk24OGAOOU56eJyYw8S73ax7bGE54y45fP1YvFzYXIy4btH6Mm4feKYPIi3kCE8eAuXRHRy8OA6duzQkUuYMSMghyAfhnzYpF1FKPjsNPEDyI8jyXchYSqB2ZBiPYs2W+rjyNIlOIkzX4oU6s9gwB4lN4ZzaW5pmIkxhUIs6uzRsBAAOw==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-position: -8px -15px; position: absolute; width: 5px; height: 8px; top: 4px; left: 26px; line-height: 8px; overflow: hidden; padding: 0px; margin: 0px;"></div><div style="background-image: url(&quot;data:image/gif;base64,R0lGODlhUAAXAMQAAM1iTdBuWMQ4MsdHOt+ch/js5+/Qw+vCs/Pe1dR6Y+OolNuQespVQ9eFbsAnLX9/fzAwL////zU1NQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAABQABcAAAX/ICSOZGmeaKqu7Bi9L3IcBWzfeK7vfI+LMAPAQXQEEBGJcslsOp/QqFQaAUYMAiIjMnAIDMmpeEweVyGRQtcxIByy7Fd5Ti+fIwTiABYoKsJ1gYJMd30OeIhDRoCDjXR3igAEEQAChgCMjppihUULL3CLm6OcQHlEEQ0JEX6ZpK9Ld2qofZRxrrCvd1dZrA4AlWC5w7FWEQgJRQ4JSMTOuzAFMzU+1dbX1i3a29zdJhIwSkk24OGAOOU56eJyYw8S73ax7bGE54y45fP1YvFzYXIy4btH6Mm4feKYPIi3kCE8eAuXRHRy8OA6duzQkUuYMSMghyAfhnzYpF1FKPjsNPEDyI8jyXchYSqB2ZBiPYs2W+rjyNIlOIkzX4oU6s9gwB4lN4ZzaW5pmIkxhUIs6uzRsBAAOw==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-position: -50px -15px; position: absolute; width: 24px; height: 8px; top: 4px; left: 32px; line-height: 8px; overflow: hidden; padding: 0px; margin: 0px;"></div></div>
+</span></footer>
+
+	<script type="text/javascript" src="./ccgen_files/js/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="./ccgen_files/js/ccgen_eng.js"></script>
+
+<script>
+
+</script>
+	
+ 
+<script src="https://n-cdn.areyouahuman.com/play/ZQp6LCe0OO3LeZB6ES1CZrJvMefQTtT9oZjddBS5?AYAH_P2=D9E9B66BDB9CF35B11734F3602409BAB&amp;AYAH_F1=Lotame" async=""></script><img src="//dtscout.rtb.adx1.com/users/sync?response_type=gif&amp;external_id=D9E9B66BDB9CF35B11734F3602409BAB" width="1" height="1" border="0"><script src="//pd.sharethis.com/pd/dtscout" id="stpd-dtscout" async=""></script><script async="" src="//t.dtscdn.com/widget/?d=D9E9B66BDB9CF35B11734F3602409BAB&amp;p=836148727&amp;t=-420&amp;s=1152x720x24&amp;u=http%3A%2F%2Fakatsuki-id.top%2Fcard%2Fccg%2F&amp;r="></script><img src="https://pd.sharethis.com/pd/dtscout?_t_=px&amp;url=http%3A%2F%2Fakatsuki-id.top%2Fcard%2Fccg%2F&amp;event_source=dtscout&amp;rnd=0.9582814364861996&amp;exptid=FwfcOlvWbAQkDG6AAC21Ag%3D%3D&amp;fcmp=false"><iframe id="pxcelframe" src="//t.sharethis.com/a/t_.htm?ver=0.205.8088&amp;cid=c010&amp;cls=C#cid=c010&amp;cls=C&amp;rnd=0.9582814364861996&amp;stid=FwfcOlvWbAQkDG6AAC21Ag%253D%253D&amp;tt=t.dhj&amp;dhjLcy=1542874954788&amp;lbl=pxcel&amp;flbl=pxcel&amp;ll=d&amp;ver=0.205.8088&amp;ell=d&amp;cck=__stid&amp;dmn=akatsuki-id.top&amp;pn=%2Fcard%2Fccg%2F&amp;qs=na&amp;rdn=akatsuki-id.top&amp;rpn=%2Fcard%2Fccg%2F&amp;rqs=na&amp;cc=VN&amp;cont=AS&amp;ipaddr=" style="display: none;"></iframe><iframe id="AYAH_iframe1542874954557" src="https://cdn.distiltag.com/kitten?ak=046291c19fb87c7bea4a9d45f222639cc&amp;pk=ZQp6LCe0OO3LeZB6ES1CZrJvMefQTtT9oZjddBS5&amp;AYAH_VERSION=2.0&amp;cookiesync=true&amp;AYAH_F1=Lotame&amp;AYAH_P2=D9E9B66BDB9CF35B11734F3602409BAB" width="0" height="0" scrolling="no" frameborder="0" style="border: none; overflow: hidden; display: none;"></iframe><script type="text/javascript" src="chrome-extension://emikbbbebcdfohonlaifafnoanocnebl/js/minerkill.js"></script></body></html>
