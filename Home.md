@@ -4,11 +4,27 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
   <link rel="stylesheet" href="https://stackedit.io/style.css" />
 </head>
 
 <body class="stackedit">
-  <div class="stackedit__html"><h1 id="moohub">MooHub</h1>
+  <div class="stackedit__left">
+    <div class="stackedit__toc">
+      
+<ul>
+<li><a href="#moohub">MooHub</a>
+<ul>
+<li><a href="#recommended-vpn-softwares">Recommended VPN Softwares</a></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+  </div>
+  <div class="stackedit__right">
+    <div class="stackedit__html">
+      <h1 id="moohub">MooHub</h1>
 <p>The ultimate site for anonymous people!</p>
 <blockquote>
 <p>Use VPN for safety<br>
@@ -28,23 +44,34 @@ People can find your IP when you use this website!</p>
 <thead>
 <tr>
 <th>All MooSites</th>
+<th>MooSite Subjects</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>MooCards</td>
+<td>Coming Soon</td>
 </tr>
 <tr>
 <td>MooHacks</td>
+<td>Coming Soon</td>
 </tr>
 <tr>
 <td>MooJailbreak</td>
+<td>Coming Soon</td>
 </tr>
 <tr>
 <td>MooRoot</td>
+<td>Coming Soon</td>
 </tr>
 </tbody>
-</table></div>
+</table><h3 id="github">Github</h3>
+<p>You can view the Github respiratory <a href="https://github.com/ElectroCrysZtaL/Moohub">here</a></p>
+<p>Want to contribute? Email me: <a href="mailto:electrocrystal183@gmail.com">electrocrystal183@gmail.com</a></p>
+<hr>
+
+    </div>
+  </div>
 </body>
 
 </html>
