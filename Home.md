@@ -9,22 +9,7 @@
 </head>
 
 <body class="stackedit">
-  <div class="stackedit__left">
-    <div class="stackedit__toc">
-      
-<ul>
-<li><a href="#moohub">MooHub</a>
-<ul>
-<li><a href="#recommended-vpn-softwares">Recommended VPN Softwares</a></li>
-</ul>
-</li>
-</ul>
-
-    </div>
-  </div>
-  <div class="stackedit__right">
-    <div class="stackedit__html">
-      <h1 id="moohub">MooHub</h1>
+  <div class="stackedit__html"><h1 id="moohub">MooHub</h1>
 <p>The ultimate site for anonymous people!</p>
 <blockquote>
 <p>Use VPN for safety<br>
@@ -69,9 +54,7 @@ People can find your IP when you use this website!</p>
 <p>You can view the Github respiratory <a href="https://github.com/ElectroCrysZtaL/Moohub">here</a></p>
 <p>Want to contribute? Email me: <a href="mailto:electrocrystal183@gmail.com">electrocrystal183@gmail.com</a></p>
 <hr>
-
-    </div>
-  </div>
+</div>
 </body>
 
 </html>
