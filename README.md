@@ -1,2 +1,4 @@
-# Discordbot-Guide
-A guide for new users who wants to make bots in discord.
+moohub resp.
+
+moohub.drr/moohub/c/EDu5EYazhtergaYzrstzTarezTYraezu&4au5t4rz
+circ, 1.8
